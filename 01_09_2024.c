@@ -58,7 +58,5 @@ int main(){
     scanf("%d",&k);
     //int arr[]={3,2,1,5,6,4};
     kth_largest_Term(n,arr,k);
-
-
-   
+  
 }
