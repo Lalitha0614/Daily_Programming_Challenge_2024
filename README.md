@@ -1,7 +1,7 @@
 # Daily_Programming_Challenge_2024
 This repository contains daily Programming Challenge Solutions as part of Daily Programming Challenge offered by Wisdom Sprouts, IT Training Hub <br><br>
 
-01_09_2024:<br.>
+01_09_2024:<br>
 Problem             : Kth Largest Term of an array Without sorting<br>
 Language Used  : C<br>
 
