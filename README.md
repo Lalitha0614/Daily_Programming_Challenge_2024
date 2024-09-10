@@ -9,9 +9,9 @@ Language Used  : C
 Problem             :Median without actual sorting
 Language Used  :C
 
-30_Day_Programming_Challenge Begins-----------------------------------------
+30_Day_Programming_Challenge Begins--------------------------------------------------------------------------------------------------------------\n
 
-09_09_2024
+09_09_2024:
 Problem             :Sorting Array with 0, 1 and 2 with time complexity O(n) (Used insertion sort)
 Language Used  :C
 
