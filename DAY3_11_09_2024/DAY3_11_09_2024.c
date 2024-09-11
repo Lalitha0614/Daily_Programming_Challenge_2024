@@ -10,25 +10,35 @@ Example : arr = [3, 1, 3, 4, 2]
 Output :
 Return the duplicate integer present in the array.
 Example: Duplicate Number : 3
-
 */
 
 #include<stdio.h>
 int main(){
+
     int n;
     printf("Enter the value of n: ");
     scanf("%d",&n);
+
     //initialising array of size n+1
-    int arr[n-1],calculated_sum=0,actual_sum,duplicate_number;
+    int arr[n+1],duplicate_number;
+
+     //initialising frequency array
+    int frequency[n];
+    for(int i=0;i<n;i++){
+        frequency[i]=0;
+    }
+
+    //creating array
     printf("Enter the n+1 integers to be in the array [with one number repeated]: \n");
     for(int i=0;i<n+1;i++){
         scanf("%d",&arr[i]);
-        calculated_sum=calculated_sum+arr[i];
+        frequency[arr[i]-1]++;
     }
 
-    //actual expected sum
-    actual_sum=(n*(n+1))/2;
-    duplicate_number=calculated_sum-actual_sum;
-    printf("The Duplicate Number is : %d",duplicate_number);
-
+    for(int i=0;i<n;i++){
+        if(frequency[i]>1){
+            duplicate_number=i+1;
+            printf("The Duplicate Number is : %d",duplicate_number);
+        }
+    }
 }
