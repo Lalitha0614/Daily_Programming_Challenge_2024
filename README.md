@@ -11,11 +11,17 @@ Language Used  :C<br><br>
 
 30_Day_Programming_Challenge Begins--------------------------------------------------------------------------------------------------------------<br><br>
 
+DAY 1 of 30<br>
 09_09_2024:<br>
 Problem             :Sorting Array with 0, 1 and 2 with time complexity O(n) (Used insertion sort)<br>
 Language Used  :C<br>
 
+DAY 2 of 30<br>
 10_09_2024:<br>
 Problem             :Finding missing number from array of n-1 integers<br>
 Language Used  :C<br>
 
+DAY 3 of 30<br>
+11_09_2024:<br>
+Problem             :Finding Duplicate number from array of n+1 integers<br>
+Language Used  :C<br>
