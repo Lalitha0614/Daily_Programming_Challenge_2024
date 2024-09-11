@@ -9,7 +9,7 @@ Language Used  : C<br>
 Problem             :Median without actual sorting<br>
 Language Used  :C<br><br>
 
-30_Day_Programming_Challenge Begins--------------------------------------------------------------------------------------------------------------<br><br>
+30_Day_Programming_Challenge Begins------------------------------------------------------------------------------------<br><br>
 
 DAY 1 of 30<br>
 09_09_2024:<br>
