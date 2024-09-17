@@ -19,18 +19,37 @@ Output: [(0, 2), (1, 3)]
 
 */
 #include<stdio.h>
+
+typedef struct{
+    int start_index;
+    int end_index;
+}tuple;
+
 int main(){
     int arr[]={1,2,-3,3,-1,2};
     int n = sizeof(arr)/sizeof(arr[0]);
-    printf("[");
+    tuple index[100];
+    int tuple_counter=0;
     for (int i=0;i<n;i++){
         int sum=arr[i];
         for(int j=i+1;j<n;j++){
             sum=sum+arr[j];
             if(sum==0){
-                printf("(%d , %d) ",i,j);
+                index[tuple_counter].start_index=i;
+                index[tuple_counter].end_index=j;
+                tuple_counter++;
             }
         }
     }
+    printf("[");
+    for(int i=0;i<tuple_counter;i++){
+        if(i>0){
+            printf(", ");
+        }
+        printf("(%d, %d)",index[i].start_index,index[i].end_index);
+    }
     printf("]");
+    if(tuple_counter==0){
+        printf("[ ]");
+    }
 }
